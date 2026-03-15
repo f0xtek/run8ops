@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "run8ops"
+version = "0.1.0"
+description = "Various tools for managing run8 operations"
+authors = ["f0xtek <f0xtek@pm.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.14.3"
+pandas = "^3.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.15.6"
+pytest = "^9.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
