@@ -6,6 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `run8ops` is a collection of Python utilities for managing run8 operations. Managed with **Poetry**, targeting Python 3.12+.
 
+## Git
+
+Use [Conventional Commits](https://www.conventionalcommits.org/) for all commit messages:
+`<type>: <description>` — e.g. `feat:`, `fix:`, `chore:`, `docs:`, `test:`, `refactor:`
+
 ## Commands
 
 ```bash
