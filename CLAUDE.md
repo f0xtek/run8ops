@@ -11,6 +11,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Use [Conventional Commits](https://www.conventionalcommits.org/) for all commit messages:
 `<type>: <description>` — e.g. `feat:`, `fix:`, `chore:`, `docs:`, `test:`, `refactor:`
 
+All changes must be made on a branch and merged via a PR. Branch names should match the conventional commit type, e.g. `feat/my-feature`, `fix/my-fix`. Delete branches after merging.
+
 ## Commands
 
 ```bash
