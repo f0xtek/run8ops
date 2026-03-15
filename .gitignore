@@ -26,5 +26,8 @@ htmlcov/
 !.vscode/settings.json
 !.vscode/extensions.json
 
+# Generated output
+run8ops.xlsx
+
 # macOS
 .DS_Store
