@@ -9,12 +9,16 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 beautifulsoup4 = "^4.14.3"
+openpyxl = "^3.1"
 pandas = "^3.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.15.6"
 pytest = "^9.0.2"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
 
 [build-system]
 requires = ["poetry-core"]
