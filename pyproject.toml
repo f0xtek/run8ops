@@ -5,6 +5,7 @@ description = "Various tools for managing run8 operations"
 authors = ["f0xtek <f0xtek@pm.me>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
